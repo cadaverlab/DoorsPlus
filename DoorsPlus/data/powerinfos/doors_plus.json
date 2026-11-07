@@ -1,0 +1,730 @@
+[
+ {
+  "strName": "CdvDoor3Closed",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvDoor3ClosedPowerupAllow",
+  "strIntPowerOff": "MSCdvDoor3ClosedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvDoor3ClosedLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvDoor3ClosedLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvDoor3ClosedLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvDoor3Open",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvDoor3OpenPowerupAllow",
+  "strIntPowerOff": "MSCdvDoor3OpenShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvDoor3OpenLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvDoor3OpenLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvDoor3OpenLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvDoor6Closed",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvDoor6ClosedPowerupAllow",
+  "strIntPowerOff": "MSCdvDoor6ClosedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvDoor6ClosedLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvDoor6ClosedLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvDoor6ClosedLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvDoor6Open",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvDoor6OpenPowerupAllow",
+  "strIntPowerOff": "MSCdvDoor6OpenShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvDoor6OpenLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvDoor6OpenLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvDoor6OpenLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvDoor7Closed",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvDoor7ClosedPowerupAllow",
+  "strIntPowerOff": "MSCdvDoor7ClosedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvDoor7ClosedLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvDoor7ClosedLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvDoor7ClosedLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvDoor7Open",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvDoor7OpenPowerupAllow",
+  "strIntPowerOff": "MSCdvDoor7OpenShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvDoor7OpenLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvDoor7OpenLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvDoor7OpenLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvSlide3Closed",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvSlide3ClosedPowerupAllow",
+  "strIntPowerOff": "MSCdvSlide3ClosedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvSlide3ClosedLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvSlide3ClosedLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvSlide3ClosedLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvSlide3Open",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvSlide3OpenPowerupAllow",
+  "strIntPowerOff": "MSCdvSlide3OpenShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvSlide3OpenLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvSlide3OpenLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvSlide3OpenLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvSlide4Closed",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvSlide4ClosedPowerupAllow",
+  "strIntPowerOff": "MSCdvSlide4ClosedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvSlide4ClosedLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvSlide4ClosedLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvSlide4ClosedLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvSlide4Open",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvSlide4OpenPowerupAllow",
+  "strIntPowerOff": "MSCdvSlide4OpenShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvSlide4OpenLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvSlide4OpenLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvSlide4OpenLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvSlide6Closed",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvSlide6ClosedPowerupAllow",
+  "strIntPowerOff": "MSCdvSlide6ClosedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvSlide6ClosedLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvSlide6ClosedLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvSlide6ClosedLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvSlide6Open",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvSlide6OpenPowerupAllow",
+  "strIntPowerOff": "MSCdvSlide6OpenShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvSlide6OpenLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvSlide6OpenLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvSlide6OpenLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvCrewClosed",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvCrewClosedPowerupAllow",
+  "strIntPowerOff": "MSCdvCrewClosedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvCrewClosedLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvCrewClosedLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvCrewClosedLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvCrewOpen",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvCrewOpenPowerupAllow",
+  "strIntPowerOff": "MSCdvCrewOpenShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvCrewOpenLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvCrewOpenLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvCrewOpenLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvPressureClosed",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvPressureClosedPowerupAllow",
+  "strIntPowerOff": "MSCdvPressureClosedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvPressureClosedLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvPressureClosedLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvPressureClosedLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvPressureOpen",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvPressureOpenPowerupAllow",
+  "strIntPowerOff": "MSCdvPressureOpenShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvPressureOpenLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvPressureOpenLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvPressureOpenLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvSecurityClosed",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvSecurityClosedPowerupAllow",
+  "strIntPowerOff": "MSCdvSecurityClosedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvSecurityClosedLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvSecurityClosedLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvSecurityClosedLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvSecurityOpen",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvSecurityOpenPowerupAllow",
+  "strIntPowerOff": "MSCdvSecurityOpenShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvSecurityOpenLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvSecurityOpenLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvSecurityOpenLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvFoldingClosed",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvFoldingClosedPowerupAllow",
+  "strIntPowerOff": "MSCdvFoldingClosedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvFoldingClosedLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvFoldingClosedLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvFoldingClosedLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvFoldingOpen",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvFoldingOpenPowerupAllow",
+  "strIntPowerOff": "MSCdvFoldingOpenShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvFoldingOpenLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvFoldingOpenLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvFoldingOpenLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvDropClosed",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvDropClosedPowerupAllow",
+  "strIntPowerOff": "MSCdvDropClosedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvDropClosedLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvDropClosedLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvDropClosedLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvDropOpen",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvDropOpenPowerupAllow",
+  "strIntPowerOff": "MSCdvDropOpenShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvDropOpenLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvDropOpenLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvDropOpenLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvQDrop1Closed",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvQDrop1ClosedPowerupAllow",
+  "strIntPowerOff": "MSCdvQDrop1ClosedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvQDrop1ClosedLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvQDrop1ClosedLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvQDrop1ClosedLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvQDrop1Open",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvQDrop1OpenPowerupAllow",
+  "strIntPowerOff": "MSCdvQDrop1OpenShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvQDrop1OpenLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvQDrop1OpenLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvQDrop1OpenLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvQDrop2Closed",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvQDrop2ClosedPowerupAllow",
+  "strIntPowerOff": "MSCdvQDrop2ClosedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvQDrop2ClosedLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvQDrop2ClosedLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvQDrop2ClosedLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvQDrop2Open",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvQDrop2OpenPowerupAllow",
+  "strIntPowerOff": "MSCdvQDrop2OpenShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ },
+ {
+  "strName": "CdvQDrop2OpenLocked",
+  "aInputPts": [
+   "PowerA",
+   "PowerB"
+  ],
+  "fAmount": 5e-06,
+  "strIntPowerOn": "MSCdvQDrop2OpenLockedPowerupAllow",
+  "strIntPowerOff": "MSCdvQDrop2OpenLockedShutdownAllow",
+  "strShutDownCT": "TIsConnctedSignalledOff",
+  "strUsePowerCT": "TIsReadyUsePower",
+  "strRechargeCT": null,
+  "bAllowExtPower": true
+ }
+]

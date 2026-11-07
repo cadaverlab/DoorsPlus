@@ -1,0 +1,11 @@
+[
+ {
+  "strName": "CdvAutoClose",
+  "strNameFriendly": "Close",
+  "strType": "repeat",
+  "strIATrigger": "PLGCdvAutoClose",
+  "aIAEnd": null,
+  "strThemID": null,
+  "nPriority": 4
+ }
+]

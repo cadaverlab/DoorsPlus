@@ -1,0 +1,2917 @@
+[
+ {
+  "strName": "ACTCdvDoor3ClosedDamage",
+  "aCOs": [
+   "MSCdvDoor3ClosedDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvDoor3ClosedDestroy",
+  "aCOs": [
+   "MSCdvDoor3ClosedDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvDoor3ClosedLooseDamage",
+  "aCOs": [
+   "MSCdvDoor3ClosedLooseDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvDoor3ClosedLooseDestroy",
+  "aCOs": [
+   "MSCdvDoor3ClosedLooseDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "CNDOLCdvDoor3Red",
+  "aCOs": [
+   "IsCdvDoor3Red=1x1",
+   "IsRed=1.0x1.0",
+   "StatBasePrice=1.0x1170.0"
+  ],
+  "aLoots": [],
+  "strType": "condition"
+ },
+ {
+  "strName": "CNDOLCdvDoor3Blast",
+  "aCOs": [
+   "IsCdvDoor3Blast=1x1",
+   "IsGreen=1.0x1.0",
+   "IsLDPH=1x1",
+   "StatBasePrice=1.0x10398.0",
+   "IsTough=1.0x1",
+   "IsFireproof=1.0x1.0",
+   "IsImmuneAnnihilation=1.0x1",
+   "StatDamageMax=1.0x60.0",
+   "StatMass=1.0x36.0",
+   "StatGasPressureMax=1.0x2000"
+  ],
+  "aLoots": [],
+  "strType": "condition"
+ },
+ {
+  "strName": "ItmCdvDoor3ClosedDamage",
+  "aCOs": [
+   "ItmCdvDoor3ClosedDmg=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor3ClosedLooseDamage",
+  "aCOs": [
+   "ItmCdvDoor3ClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor3BlastDismantle",
+  "aCOs": [
+   "ItmComponentMobo01=1.0x1",
+   "ItmComponentMotor01=1.0x2",
+   "ItmPartsElecSmall01=1.0x3",
+   "ItmPartsMechSmall01=1.0x4",
+   "ItmScrapSteel=1.0x5",
+   "ItmScrapCarbonFiber=1.0x3",
+   "ItmScrapTrash=1.0x3"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDoor3Closed",
+  "aCOs": [
+   "ItmCdvDoor3Closed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor3ClosedLoose",
+  "aCOs": [
+   "ItmCdvDoor3ClosedLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor3ClosedDmg",
+  "aCOs": [
+   "ItmCdvDoor3ClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor3ClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvDoor3ClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDoor3ClosedLocked",
+  "aCOs": [
+   "ItmCdvDoor3ClosedLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDoor3ClosedOn",
+  "aCOs": [
+   "ItmCdvDoor3ClosedOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDoor3ClosedOnLocked",
+  "aCOs": [
+   "ItmCdvDoor3ClosedOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDoor3Open",
+  "aCOs": [
+   "ItmCdvDoor3Open=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDoor3OpenLocked",
+  "aCOs": [
+   "ItmCdvDoor3OpenLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDoor3OpenOn",
+  "aCOs": [
+   "ItmCdvDoor3OpenOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDoor3OpenOnLocked",
+  "aCOs": [
+   "ItmCdvDoor3OpenOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor3RedClosedLoose",
+  "aCOs": [
+   "ItmCdvDoor3RedClosedLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor3RedClosedDmg",
+  "aCOs": [
+   "ItmCdvDoor3RedClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor3RedClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvDoor3RedClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor3BlastClosedLoose",
+  "aCOs": [
+   "ItmCdvDoor3BlastClosed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor3BlastClosedDmg",
+  "aCOs": [
+   "ItmCdvDoor3BlastClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor3BlastClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvDoor3BlastClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ACTCdvDoor6ClosedDamage",
+  "aCOs": [
+   "MSCdvDoor6ClosedDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvDoor6ClosedDestroy",
+  "aCOs": [
+   "MSCdvDoor6ClosedDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvDoor6ClosedLooseDamage",
+  "aCOs": [
+   "MSCdvDoor6ClosedLooseDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvDoor6ClosedLooseDestroy",
+  "aCOs": [
+   "MSCdvDoor6ClosedLooseDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "CNDOLCdvDoor6Red",
+  "aCOs": [
+   "IsCdvDoor6Red=1x1",
+   "IsRed=1.0x1.0",
+   "StatBasePrice=1.0x2340.0"
+  ],
+  "aLoots": [],
+  "strType": "condition"
+ },
+ {
+  "strName": "CNDOLCdvDoor6Blast",
+  "aCOs": [
+   "IsCdvDoor6Blast=1x1",
+   "IsGreen=1.0x1.0",
+   "IsLDPH=1x1",
+   "StatBasePrice=1.0x20796.0",
+   "IsTough=1.0x1",
+   "IsFireproof=1.0x1.0",
+   "IsImmuneAnnihilation=1.0x1",
+   "StatDamageMax=1.0x60.0",
+   "StatMass=1.0x72.0",
+   "StatGasPressureMax=1.0x2000"
+  ],
+  "aLoots": [],
+  "strType": "condition"
+ },
+ {
+  "strName": "ItmCdvDoor6ClosedDamage",
+  "aCOs": [
+   "ItmCdvDoor6ClosedDmg=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor6ClosedLooseDamage",
+  "aCOs": [
+   "ItmCdvDoor6ClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor6BlastDismantle",
+  "aCOs": [
+   "ItmComponentMobo01=1.0x1",
+   "ItmComponentMotor01=1.0x2",
+   "ItmPartsElecSmall01=1.0x3",
+   "ItmPartsMechSmall01=1.0x4",
+   "ItmScrapSteel=1.0x5",
+   "ItmScrapCarbonFiber=1.0x3",
+   "ItmScrapTrash=1.0x3"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDoor6Closed",
+  "aCOs": [
+   "ItmCdvDoor6Closed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor6ClosedLoose",
+  "aCOs": [
+   "ItmCdvDoor6ClosedLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor6ClosedDmg",
+  "aCOs": [
+   "ItmCdvDoor6ClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor6ClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvDoor6ClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDoor6ClosedLocked",
+  "aCOs": [
+   "ItmCdvDoor6ClosedLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDoor6ClosedOn",
+  "aCOs": [
+   "ItmCdvDoor6ClosedOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDoor6ClosedOnLocked",
+  "aCOs": [
+   "ItmCdvDoor6ClosedOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDoor6Open",
+  "aCOs": [
+   "ItmCdvDoor6Open=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDoor6OpenLocked",
+  "aCOs": [
+   "ItmCdvDoor6OpenLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDoor6OpenOn",
+  "aCOs": [
+   "ItmCdvDoor6OpenOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDoor6OpenOnLocked",
+  "aCOs": [
+   "ItmCdvDoor6OpenOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor6RedClosedLoose",
+  "aCOs": [
+   "ItmCdvDoor6RedClosedLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor6RedClosedDmg",
+  "aCOs": [
+   "ItmCdvDoor6RedClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor6RedClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvDoor6RedClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor6BlastClosedLoose",
+  "aCOs": [
+   "ItmCdvDoor6BlastClosed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor6BlastClosedDmg",
+  "aCOs": [
+   "ItmCdvDoor6BlastClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor6BlastClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvDoor6BlastClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ACTCdvDoor7ClosedDamage",
+  "aCOs": [
+   "MSCdvDoor7ClosedDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvDoor7ClosedDestroy",
+  "aCOs": [
+   "MSCdvDoor7ClosedDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvDoor7ClosedLooseDamage",
+  "aCOs": [
+   "MSCdvDoor7ClosedLooseDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvDoor7ClosedLooseDestroy",
+  "aCOs": [
+   "MSCdvDoor7ClosedLooseDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "CNDOLCdvDoor7Red",
+  "aCOs": [
+   "IsCdvDoor7Red=1x1",
+   "IsRed=1.0x1.0",
+   "StatBasePrice=1.0x2730.0"
+  ],
+  "aLoots": [],
+  "strType": "condition"
+ },
+ {
+  "strName": "CNDOLCdvDoor7Blast",
+  "aCOs": [
+   "IsCdvDoor7Blast=1x1",
+   "IsGreen=1.0x1.0",
+   "IsLDPH=1x1",
+   "StatBasePrice=1.0x24262.0",
+   "IsTough=1.0x1",
+   "IsFireproof=1.0x1.0",
+   "IsImmuneAnnihilation=1.0x1",
+   "StatDamageMax=1.0x60.0",
+   "StatMass=1.0x84.0",
+   "StatGasPressureMax=1.0x2000"
+  ],
+  "aLoots": [],
+  "strType": "condition"
+ },
+ {
+  "strName": "ItmCdvDoor7ClosedDamage",
+  "aCOs": [
+   "ItmCdvDoor7ClosedDmg=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor7ClosedLooseDamage",
+  "aCOs": [
+   "ItmCdvDoor7ClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor7BlastDismantle",
+  "aCOs": [
+   "ItmComponentMobo01=1.0x1",
+   "ItmComponentMotor01=1.0x2",
+   "ItmPartsElecSmall01=1.0x3",
+   "ItmPartsMechSmall01=1.0x4",
+   "ItmScrapSteel=1.0x5",
+   "ItmScrapCarbonFiber=1.0x3",
+   "ItmScrapTrash=1.0x3"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDoor7Closed",
+  "aCOs": [
+   "ItmCdvDoor7Closed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor7ClosedLoose",
+  "aCOs": [
+   "ItmCdvDoor7ClosedLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor7ClosedDmg",
+  "aCOs": [
+   "ItmCdvDoor7ClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor7ClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvDoor7ClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDoor7ClosedLocked",
+  "aCOs": [
+   "ItmCdvDoor7ClosedLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDoor7ClosedOn",
+  "aCOs": [
+   "ItmCdvDoor7ClosedOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDoor7ClosedOnLocked",
+  "aCOs": [
+   "ItmCdvDoor7ClosedOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDoor7Open",
+  "aCOs": [
+   "ItmCdvDoor7Open=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDoor7OpenLocked",
+  "aCOs": [
+   "ItmCdvDoor7OpenLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDoor7OpenOn",
+  "aCOs": [
+   "ItmCdvDoor7OpenOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDoor7OpenOnLocked",
+  "aCOs": [
+   "ItmCdvDoor7OpenOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor7RedClosedLoose",
+  "aCOs": [
+   "ItmCdvDoor7RedClosedLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor7RedClosedDmg",
+  "aCOs": [
+   "ItmCdvDoor7RedClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor7RedClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvDoor7RedClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor7BlastClosedLoose",
+  "aCOs": [
+   "ItmCdvDoor7BlastClosed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor7BlastClosedDmg",
+  "aCOs": [
+   "ItmCdvDoor7BlastClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDoor7BlastClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvDoor7BlastClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ACTCdvSlide3ClosedDamage",
+  "aCOs": [
+   "MSCdvSlide3ClosedDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvSlide3ClosedDestroy",
+  "aCOs": [
+   "MSCdvSlide3ClosedDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvSlide3ClosedLooseDamage",
+  "aCOs": [
+   "MSCdvSlide3ClosedLooseDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvSlide3ClosedLooseDestroy",
+  "aCOs": [
+   "MSCdvSlide3ClosedLooseDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "CNDOLCdvSlide3Red",
+  "aCOs": [
+   "IsCdvSlide3Red=1x1",
+   "IsRed=1.0x1.0",
+   "StatBasePrice=1.0x1170.0"
+  ],
+  "aLoots": [],
+  "strType": "condition"
+ },
+ {
+  "strName": "CNDOLCdvSlide3Blast",
+  "aCOs": [
+   "IsCdvSlide3Blast=1x1",
+   "IsGreen=1.0x1.0",
+   "IsLDPH=1x1",
+   "StatBasePrice=1.0x10398.0",
+   "IsTough=1.0x1",
+   "IsFireproof=1.0x1.0",
+   "IsImmuneAnnihilation=1.0x1",
+   "StatDamageMax=1.0x60.0",
+   "StatMass=1.0x36.0",
+   "StatGasPressureMax=1.0x2000"
+  ],
+  "aLoots": [],
+  "strType": "condition"
+ },
+ {
+  "strName": "ItmCdvSlide3ClosedDamage",
+  "aCOs": [
+   "ItmCdvSlide3ClosedDmg=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide3ClosedLooseDamage",
+  "aCOs": [
+   "ItmCdvSlide3ClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide3BlastDismantle",
+  "aCOs": [
+   "ItmComponentMobo01=1.0x1",
+   "ItmComponentMotor01=1.0x2",
+   "ItmPartsElecSmall01=1.0x3",
+   "ItmPartsMechSmall01=1.0x4",
+   "ItmScrapSteel=1.0x5",
+   "ItmScrapCarbonFiber=1.0x3",
+   "ItmScrapTrash=1.0x3"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSlide3Closed",
+  "aCOs": [
+   "ItmCdvSlide3Closed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide3ClosedLoose",
+  "aCOs": [
+   "ItmCdvSlide3ClosedLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide3ClosedDmg",
+  "aCOs": [
+   "ItmCdvSlide3ClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide3ClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvSlide3ClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSlide3ClosedLocked",
+  "aCOs": [
+   "ItmCdvSlide3ClosedLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSlide3ClosedOn",
+  "aCOs": [
+   "ItmCdvSlide3ClosedOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSlide3ClosedOnLocked",
+  "aCOs": [
+   "ItmCdvSlide3ClosedOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSlide3Open",
+  "aCOs": [
+   "ItmCdvSlide3Open=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSlide3OpenLocked",
+  "aCOs": [
+   "ItmCdvSlide3OpenLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSlide3OpenOn",
+  "aCOs": [
+   "ItmCdvSlide3OpenOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSlide3OpenOnLocked",
+  "aCOs": [
+   "ItmCdvSlide3OpenOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide3RedClosedLoose",
+  "aCOs": [
+   "ItmCdvSlide3RedClosedLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide3RedClosedDmg",
+  "aCOs": [
+   "ItmCdvSlide3RedClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide3RedClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvSlide3RedClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide3BlastClosedLoose",
+  "aCOs": [
+   "ItmCdvSlide3BlastClosed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide3BlastClosedDmg",
+  "aCOs": [
+   "ItmCdvSlide3BlastClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide3BlastClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvSlide3BlastClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ACTCdvSlide4ClosedDamage",
+  "aCOs": [
+   "MSCdvSlide4ClosedDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvSlide4ClosedDestroy",
+  "aCOs": [
+   "MSCdvSlide4ClosedDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvSlide4ClosedLooseDamage",
+  "aCOs": [
+   "MSCdvSlide4ClosedLooseDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvSlide4ClosedLooseDestroy",
+  "aCOs": [
+   "MSCdvSlide4ClosedLooseDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "CNDOLCdvSlide4Red",
+  "aCOs": [
+   "IsCdvSlide4Red=1x1",
+   "IsRed=1.0x1.0",
+   "StatBasePrice=1.0x1560.0"
+  ],
+  "aLoots": [],
+  "strType": "condition"
+ },
+ {
+  "strName": "CNDOLCdvSlide4Blast",
+  "aCOs": [
+   "IsCdvSlide4Blast=1x1",
+   "IsGreen=1.0x1.0",
+   "IsLDPH=1x1",
+   "StatBasePrice=1.0x13864.0",
+   "IsTough=1.0x1",
+   "IsFireproof=1.0x1.0",
+   "IsImmuneAnnihilation=1.0x1",
+   "StatDamageMax=1.0x60.0",
+   "StatMass=1.0x48.0",
+   "StatGasPressureMax=1.0x2000"
+  ],
+  "aLoots": [],
+  "strType": "condition"
+ },
+ {
+  "strName": "ItmCdvSlide4ClosedDamage",
+  "aCOs": [
+   "ItmCdvSlide4ClosedDmg=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide4ClosedLooseDamage",
+  "aCOs": [
+   "ItmCdvSlide4ClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide4BlastDismantle",
+  "aCOs": [
+   "ItmComponentMobo01=1.0x1",
+   "ItmComponentMotor01=1.0x2",
+   "ItmPartsElecSmall01=1.0x3",
+   "ItmPartsMechSmall01=1.0x4",
+   "ItmScrapSteel=1.0x5",
+   "ItmScrapCarbonFiber=1.0x3",
+   "ItmScrapTrash=1.0x3"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSlide4Closed",
+  "aCOs": [
+   "ItmCdvSlide4Closed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide4ClosedLoose",
+  "aCOs": [
+   "ItmCdvSlide4ClosedLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide4ClosedDmg",
+  "aCOs": [
+   "ItmCdvSlide4ClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide4ClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvSlide4ClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSlide4ClosedLocked",
+  "aCOs": [
+   "ItmCdvSlide4ClosedLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSlide4ClosedOn",
+  "aCOs": [
+   "ItmCdvSlide4ClosedOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSlide4ClosedOnLocked",
+  "aCOs": [
+   "ItmCdvSlide4ClosedOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSlide4Open",
+  "aCOs": [
+   "ItmCdvSlide4Open=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSlide4OpenLocked",
+  "aCOs": [
+   "ItmCdvSlide4OpenLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSlide4OpenOn",
+  "aCOs": [
+   "ItmCdvSlide4OpenOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSlide4OpenOnLocked",
+  "aCOs": [
+   "ItmCdvSlide4OpenOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide4RedClosedLoose",
+  "aCOs": [
+   "ItmCdvSlide4RedClosedLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide4RedClosedDmg",
+  "aCOs": [
+   "ItmCdvSlide4RedClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide4RedClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvSlide4RedClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide4BlastClosedLoose",
+  "aCOs": [
+   "ItmCdvSlide4BlastClosed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide4BlastClosedDmg",
+  "aCOs": [
+   "ItmCdvSlide4BlastClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide4BlastClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvSlide4BlastClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ACTCdvSlide6ClosedDamage",
+  "aCOs": [
+   "MSCdvSlide6ClosedDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvSlide6ClosedDestroy",
+  "aCOs": [
+   "MSCdvSlide6ClosedDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvSlide6ClosedLooseDamage",
+  "aCOs": [
+   "MSCdvSlide6ClosedLooseDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvSlide6ClosedLooseDestroy",
+  "aCOs": [
+   "MSCdvSlide6ClosedLooseDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "CNDOLCdvSlide6Red",
+  "aCOs": [
+   "IsCdvSlide6Red=1x1",
+   "IsRed=1.0x1.0",
+   "StatBasePrice=1.0x2340.0"
+  ],
+  "aLoots": [],
+  "strType": "condition"
+ },
+ {
+  "strName": "CNDOLCdvSlide6Blast",
+  "aCOs": [
+   "IsCdvSlide6Blast=1x1",
+   "IsGreen=1.0x1.0",
+   "IsLDPH=1x1",
+   "StatBasePrice=1.0x20796.0",
+   "IsTough=1.0x1",
+   "IsFireproof=1.0x1.0",
+   "IsImmuneAnnihilation=1.0x1",
+   "StatDamageMax=1.0x60.0",
+   "StatMass=1.0x72.0",
+   "StatGasPressureMax=1.0x2000"
+  ],
+  "aLoots": [],
+  "strType": "condition"
+ },
+ {
+  "strName": "ItmCdvSlide6ClosedDamage",
+  "aCOs": [
+   "ItmCdvSlide6ClosedDmg=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide6ClosedLooseDamage",
+  "aCOs": [
+   "ItmCdvSlide6ClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide6BlastDismantle",
+  "aCOs": [
+   "ItmComponentMobo01=1.0x1",
+   "ItmComponentMotor01=1.0x2",
+   "ItmPartsElecSmall01=1.0x3",
+   "ItmPartsMechSmall01=1.0x4",
+   "ItmScrapSteel=1.0x5",
+   "ItmScrapCarbonFiber=1.0x3",
+   "ItmScrapTrash=1.0x3"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSlide6Closed",
+  "aCOs": [
+   "ItmCdvSlide6Closed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide6ClosedLoose",
+  "aCOs": [
+   "ItmCdvSlide6ClosedLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide6ClosedDmg",
+  "aCOs": [
+   "ItmCdvSlide6ClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide6ClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvSlide6ClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSlide6ClosedLocked",
+  "aCOs": [
+   "ItmCdvSlide6ClosedLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSlide6ClosedOn",
+  "aCOs": [
+   "ItmCdvSlide6ClosedOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSlide6ClosedOnLocked",
+  "aCOs": [
+   "ItmCdvSlide6ClosedOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSlide6Open",
+  "aCOs": [
+   "ItmCdvSlide6Open=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSlide6OpenLocked",
+  "aCOs": [
+   "ItmCdvSlide6OpenLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSlide6OpenOn",
+  "aCOs": [
+   "ItmCdvSlide6OpenOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSlide6OpenOnLocked",
+  "aCOs": [
+   "ItmCdvSlide6OpenOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide6RedClosedLoose",
+  "aCOs": [
+   "ItmCdvSlide6RedClosedLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide6RedClosedDmg",
+  "aCOs": [
+   "ItmCdvSlide6RedClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide6RedClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvSlide6RedClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide6BlastClosedLoose",
+  "aCOs": [
+   "ItmCdvSlide6BlastClosed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide6BlastClosedDmg",
+  "aCOs": [
+   "ItmCdvSlide6BlastClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSlide6BlastClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvSlide6BlastClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ACTCdvCrewClosedDamage",
+  "aCOs": [
+   "MSCdvCrewClosedDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvCrewClosedDestroy",
+  "aCOs": [
+   "MSCdvCrewClosedDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvCrewClosedLooseDamage",
+  "aCOs": [
+   "MSCdvCrewClosedLooseDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvCrewClosedLooseDestroy",
+  "aCOs": [
+   "MSCdvCrewClosedLooseDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "CNDOLCdvCrewRed",
+  "aCOs": [
+   "IsCdvCrewRed=1x1",
+   "IsRed=1.0x1.0",
+   "StatBasePrice=1.0x2118.0"
+  ],
+  "aLoots": [],
+  "strType": "condition"
+ },
+ {
+  "strName": "CNDOLCdvCrewBlast",
+  "aCOs": [
+   "IsCdvCrewBlast=1x1",
+   "IsGreen=1.0x1.0",
+   "IsLDPH=1x1",
+   "StatBasePrice=1.0x18822.8",
+   "IsTough=1.0x1",
+   "IsFireproof=1.0x1.0",
+   "IsImmuneAnnihilation=1.0x1",
+   "StatDamageMax=1.0x60.0",
+   "StatMass=1.0x56.4",
+   "StatGasPressureMax=1.0x2000"
+  ],
+  "aLoots": [],
+  "strType": "condition"
+ },
+ {
+  "strName": "ItmCdvCrewClosedDamage",
+  "aCOs": [
+   "ItmCdvCrewClosedDmg=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvCrewClosedLooseDamage",
+  "aCOs": [
+   "ItmCdvCrewClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvCrewBlastDismantle",
+  "aCOs": [
+   "ItmComponentMobo01=1.0x1",
+   "ItmComponentMotor01=1.0x2",
+   "ItmPartsElecSmall01=1.0x3",
+   "ItmPartsMechSmall01=1.0x4",
+   "ItmScrapSteel=1.0x5",
+   "ItmScrapCarbonFiber=1.0x3",
+   "ItmScrapTrash=1.0x3"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvCrewClosed",
+  "aCOs": [
+   "ItmCdvCrewClosed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvCrewClosedLoose",
+  "aCOs": [
+   "ItmCdvCrewClosedLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvCrewClosedDmg",
+  "aCOs": [
+   "ItmCdvCrewClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvCrewClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvCrewClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvCrewClosedLocked",
+  "aCOs": [
+   "ItmCdvCrewClosedLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvCrewClosedOn",
+  "aCOs": [
+   "ItmCdvCrewClosedOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvCrewClosedOnLocked",
+  "aCOs": [
+   "ItmCdvCrewClosedOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvCrewOpen",
+  "aCOs": [
+   "ItmCdvCrewOpen=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvCrewOpenLocked",
+  "aCOs": [
+   "ItmCdvCrewOpenLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvCrewOpenOn",
+  "aCOs": [
+   "ItmCdvCrewOpenOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvCrewOpenOnLocked",
+  "aCOs": [
+   "ItmCdvCrewOpenOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvCrewRedClosedLoose",
+  "aCOs": [
+   "ItmCdvCrewRedClosedLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvCrewRedClosedDmg",
+  "aCOs": [
+   "ItmCdvCrewRedClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvCrewRedClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvCrewRedClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvCrewBlastClosedLoose",
+  "aCOs": [
+   "ItmCdvCrewBlastClosed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvCrewBlastClosedDmg",
+  "aCOs": [
+   "ItmCdvCrewBlastClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvCrewBlastClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvCrewBlastClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ACTCdvPressureClosedDamage",
+  "aCOs": [
+   "MSCdvPressureClosedDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvPressureClosedDestroy",
+  "aCOs": [
+   "MSCdvPressureClosedDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvPressureClosedLooseDamage",
+  "aCOs": [
+   "MSCdvPressureClosedLooseDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvPressureClosedLooseDestroy",
+  "aCOs": [
+   "MSCdvPressureClosedLooseDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "CNDOLCdvPressureRed",
+  "aCOs": [
+   "IsCdvPressureRed=1x1",
+   "IsRed=1.0x1.0",
+   "StatBasePrice=1.0x5039.3"
+  ],
+  "aLoots": [],
+  "strType": "condition"
+ },
+ {
+  "strName": "CNDOLCdvPressureBlast",
+  "aCOs": [
+   "IsCdvPressureBlast=1x1",
+   "IsGreen=1.0x1.0",
+   "IsLDPH=1x1",
+   "StatBasePrice=1.0x44785.4",
+   "IsTough=1.0x1",
+   "IsFireproof=1.0x1.0",
+   "IsImmuneAnnihilation=1.0x1",
+   "StatDamageMax=1.0x60.0",
+   "StatMass=1.0x86.2",
+   "StatGasPressureMax=1.0x2000"
+  ],
+  "aLoots": [],
+  "strType": "condition"
+ },
+ {
+  "strName": "ItmCdvPressureClosedDamage",
+  "aCOs": [
+   "ItmCdvPressureClosedDmg=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvPressureClosedLooseDamage",
+  "aCOs": [
+   "ItmCdvPressureClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvPressureBlastDismantle",
+  "aCOs": [
+   "ItmComponentMobo01=1.0x1",
+   "ItmComponentMotor01=1.0x2",
+   "ItmPartsElecSmall01=1.0x3",
+   "ItmPartsMechSmall01=1.0x4",
+   "ItmScrapSteel=1.0x5",
+   "ItmScrapCarbonFiber=1.0x3",
+   "ItmScrapTrash=1.0x3"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvPressureClosed",
+  "aCOs": [
+   "ItmCdvPressureClosed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvPressureClosedLoose",
+  "aCOs": [
+   "ItmCdvPressureClosedLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvPressureClosedDmg",
+  "aCOs": [
+   "ItmCdvPressureClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvPressureClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvPressureClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvPressureClosedLocked",
+  "aCOs": [
+   "ItmCdvPressureClosedLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvPressureClosedOn",
+  "aCOs": [
+   "ItmCdvPressureClosedOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvPressureClosedOnLocked",
+  "aCOs": [
+   "ItmCdvPressureClosedOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvPressureOpen",
+  "aCOs": [
+   "ItmCdvPressureOpen=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvPressureOpenLocked",
+  "aCOs": [
+   "ItmCdvPressureOpenLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvPressureOpenOn",
+  "aCOs": [
+   "ItmCdvPressureOpenOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvPressureOpenOnLocked",
+  "aCOs": [
+   "ItmCdvPressureOpenOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvPressureRedClosedLoose",
+  "aCOs": [
+   "ItmCdvPressureRedClosedLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvPressureRedClosedDmg",
+  "aCOs": [
+   "ItmCdvPressureRedClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvPressureRedClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvPressureRedClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvPressureBlastClosedLoose",
+  "aCOs": [
+   "ItmCdvPressureBlastClosed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvPressureBlastClosedDmg",
+  "aCOs": [
+   "ItmCdvPressureBlastClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvPressureBlastClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvPressureBlastClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ACTCdvSecurityClosedDamage",
+  "aCOs": [
+   "MSCdvSecurityClosedDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvSecurityClosedDestroy",
+  "aCOs": [
+   "MSCdvSecurityClosedDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvSecurityClosedLooseDamage",
+  "aCOs": [
+   "MSCdvSecurityClosedLooseDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvSecurityClosedLooseDestroy",
+  "aCOs": [
+   "MSCdvSecurityClosedLooseDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "CNDOLCdvSecurityRed",
+  "aCOs": [
+   "IsCdvSecurityRed=1x1",
+   "IsRed=1.0x1.0",
+   "StatBasePrice=1.0x6865.2"
+  ],
+  "aLoots": [],
+  "strType": "condition"
+ },
+ {
+  "strName": "CNDOLCdvSecurityBlast",
+  "aCOs": [
+   "IsCdvSecurityBlast=1x1",
+   "IsGreen=1.0x1.0",
+   "IsLDPH=1x1",
+   "StatBasePrice=1.0x61012.0",
+   "IsTough=1.0x1",
+   "IsFireproof=1.0x1.0",
+   "IsImmuneAnnihilation=1.0x1",
+   "StatDamageMax=1.0x60.0",
+   "StatMass=1.0x79.6",
+   "StatGasPressureMax=1.0x2000"
+  ],
+  "aLoots": [],
+  "strType": "condition"
+ },
+ {
+  "strName": "ItmCdvSecurityClosedDamage",
+  "aCOs": [
+   "ItmCdvSecurityClosedDmg=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSecurityClosedLooseDamage",
+  "aCOs": [
+   "ItmCdvSecurityClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSecurityBlastDismantle",
+  "aCOs": [
+   "ItmComponentMobo01=1.0x1",
+   "ItmComponentMotor01=1.0x2",
+   "ItmPartsElecSmall01=1.0x3",
+   "ItmPartsMechSmall01=1.0x4",
+   "ItmScrapSteel=1.0x5",
+   "ItmScrapCarbonFiber=1.0x3",
+   "ItmScrapTrash=1.0x3"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSecurityClosed",
+  "aCOs": [
+   "ItmCdvSecurityClosed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSecurityClosedLoose",
+  "aCOs": [
+   "ItmCdvSecurityClosedLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSecurityClosedDmg",
+  "aCOs": [
+   "ItmCdvSecurityClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSecurityClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvSecurityClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSecurityClosedLocked",
+  "aCOs": [
+   "ItmCdvSecurityClosedLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSecurityClosedOn",
+  "aCOs": [
+   "ItmCdvSecurityClosedOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSecurityClosedOnLocked",
+  "aCOs": [
+   "ItmCdvSecurityClosedOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSecurityOpen",
+  "aCOs": [
+   "ItmCdvSecurityOpen=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSecurityOpenLocked",
+  "aCOs": [
+   "ItmCdvSecurityOpenLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSecurityOpenOn",
+  "aCOs": [
+   "ItmCdvSecurityOpenOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvSecurityOpenOnLocked",
+  "aCOs": [
+   "ItmCdvSecurityOpenOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSecurityRedClosedLoose",
+  "aCOs": [
+   "ItmCdvSecurityRedClosedLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSecurityRedClosedDmg",
+  "aCOs": [
+   "ItmCdvSecurityRedClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSecurityRedClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvSecurityRedClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSecurityBlastClosedLoose",
+  "aCOs": [
+   "ItmCdvSecurityBlastClosed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSecurityBlastClosedDmg",
+  "aCOs": [
+   "ItmCdvSecurityBlastClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvSecurityBlastClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvSecurityBlastClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ACTCdvFoldingClosedDamage",
+  "aCOs": [
+   "MSCdvFoldingClosedDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvFoldingClosedDestroy",
+  "aCOs": [
+   "MSCdvFoldingClosedDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvFoldingClosedLooseDamage",
+  "aCOs": [
+   "MSCdvFoldingClosedLooseDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvFoldingClosedLooseDestroy",
+  "aCOs": [
+   "MSCdvFoldingClosedLooseDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "CNDOLCdvFoldingRed",
+  "aCOs": [
+   "IsCdvFoldingRed=1x1",
+   "IsRed=1.0x1.0",
+   "StatBasePrice=1.0x803.4"
+  ],
+  "aLoots": [],
+  "strType": "condition"
+ },
+ {
+  "strName": "CNDOLCdvFoldingBlast",
+  "aCOs": [
+   "IsCdvFoldingBlast=1x1",
+   "IsGreen=1.0x1.0",
+   "IsLDPH=1x1",
+   "StatBasePrice=1.0x7139.7",
+   "IsTough=1.0x1",
+   "IsFireproof=1.0x1.0",
+   "IsImmuneAnnihilation=1.0x1",
+   "StatDamageMax=1.0x60.0",
+   "StatMass=1.0x23.2",
+   "StatGasPressureMax=1.0x2000"
+  ],
+  "aLoots": [],
+  "strType": "condition"
+ },
+ {
+  "strName": "ItmCdvFoldingClosedDamage",
+  "aCOs": [
+   "ItmCdvFoldingClosedDmg=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvFoldingClosedLooseDamage",
+  "aCOs": [
+   "ItmCdvFoldingClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvFoldingBlastDismantle",
+  "aCOs": [
+   "ItmComponentMobo01=1.0x1",
+   "ItmComponentMotor01=1.0x2",
+   "ItmPartsElecSmall01=1.0x3",
+   "ItmPartsMechSmall01=1.0x4",
+   "ItmScrapSteel=1.0x5",
+   "ItmScrapCarbonFiber=1.0x3",
+   "ItmScrapTrash=1.0x3"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvFoldingClosed",
+  "aCOs": [
+   "ItmCdvFoldingClosed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvFoldingClosedLoose",
+  "aCOs": [
+   "ItmCdvFoldingClosedLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvFoldingClosedDmg",
+  "aCOs": [
+   "ItmCdvFoldingClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvFoldingClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvFoldingClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvFoldingClosedLocked",
+  "aCOs": [
+   "ItmCdvFoldingClosedLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvFoldingClosedOn",
+  "aCOs": [
+   "ItmCdvFoldingClosedOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvFoldingClosedOnLocked",
+  "aCOs": [
+   "ItmCdvFoldingClosedOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvFoldingOpen",
+  "aCOs": [
+   "ItmCdvFoldingOpen=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvFoldingOpenLocked",
+  "aCOs": [
+   "ItmCdvFoldingOpenLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvFoldingOpenOn",
+  "aCOs": [
+   "ItmCdvFoldingOpenOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvFoldingOpenOnLocked",
+  "aCOs": [
+   "ItmCdvFoldingOpenOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvFoldingRedClosedLoose",
+  "aCOs": [
+   "ItmCdvFoldingRedClosedLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvFoldingRedClosedDmg",
+  "aCOs": [
+   "ItmCdvFoldingRedClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvFoldingRedClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvFoldingRedClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvFoldingBlastClosedLoose",
+  "aCOs": [
+   "ItmCdvFoldingBlastClosed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvFoldingBlastClosedDmg",
+  "aCOs": [
+   "ItmCdvFoldingBlastClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvFoldingBlastClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvFoldingBlastClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ACTCdvDropClosedDamage",
+  "aCOs": [
+   "MSCdvDropClosedDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvDropClosedDestroy",
+  "aCOs": [
+   "MSCdvDropClosedDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvDropClosedLooseDamage",
+  "aCOs": [
+   "MSCdvDropClosedLooseDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvDropClosedLooseDestroy",
+  "aCOs": [
+   "MSCdvDropClosedLooseDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ItmCdvDropClosedDamage",
+  "aCOs": [
+   "ItmCdvDropClosedDmg=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDropClosedLooseDamage",
+  "aCOs": [
+   "ItmCdvDropClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDropClosed",
+  "aCOs": [
+   "ItmCdvDropClosed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDropClosedLoose",
+  "aCOs": [
+   "ItmCdvDropClosedLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDropClosedDmg",
+  "aCOs": [
+   "ItmCdvDropClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvDropClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvDropClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDropClosedLocked",
+  "aCOs": [
+   "ItmCdvDropClosedLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDropClosedOn",
+  "aCOs": [
+   "ItmCdvDropClosedOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDropClosedOnLocked",
+  "aCOs": [
+   "ItmCdvDropClosedOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDropOpen",
+  "aCOs": [
+   "ItmCdvDropOpen=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDropOpenLocked",
+  "aCOs": [
+   "ItmCdvDropOpenLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDropOpenOn",
+  "aCOs": [
+   "ItmCdvDropOpenOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvDropOpenOnLocked",
+  "aCOs": [
+   "ItmCdvDropOpenOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "TILCdvDropClosed",
+  "aCOs": [
+   "IsObstruction=1.0x1",
+   "IsPortal=1.0x1",
+   "IsWall=1.0x1",
+   "IsFloor=1.0x1",
+   "IsFloorSealed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "condition"
+ },
+ {
+  "strName": "TILCdvDropStuck",
+  "aCOs": [
+   "IsObstruction=1.0x1",
+   "IsPortal=1.0x1",
+   "IsPortalStuck=1.0x1",
+   "IsWall=1.0x1",
+   "IsFloor=1.0x1",
+   "IsFloorSealed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "condition"
+ },
+ {
+  "strName": "TILCdvDropOpen",
+  "aCOs": [
+   "IsObstruction=1.0x1",
+   "IsOpen=1.0x1",
+   "IsPortal=1.0x1",
+   "IsFloor=1.0x1",
+   "IsFloorSealed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "condition"
+ },
+ {
+  "strName": "ACTCdvQDrop1ClosedDamage",
+  "aCOs": [
+   "MSCdvQDrop1ClosedDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvQDrop1ClosedDestroy",
+  "aCOs": [
+   "MSCdvQDrop1ClosedDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvQDrop1ClosedLooseDamage",
+  "aCOs": [
+   "MSCdvQDrop1ClosedLooseDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvQDrop1ClosedLooseDestroy",
+  "aCOs": [
+   "MSCdvQDrop1ClosedLooseDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ItmCdvQDrop1ClosedDamage",
+  "aCOs": [
+   "ItmCdvQDrop1ClosedDmg=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvQDrop1ClosedLooseDamage",
+  "aCOs": [
+   "ItmCdvQDrop1ClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvQDrop1Closed",
+  "aCOs": [
+   "ItmCdvQDrop1Closed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvQDrop1ClosedLoose",
+  "aCOs": [
+   "ItmCdvQDrop1ClosedLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvQDrop1ClosedDmg",
+  "aCOs": [
+   "ItmCdvQDrop1ClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvQDrop1ClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvQDrop1ClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvQDrop1ClosedLocked",
+  "aCOs": [
+   "ItmCdvQDrop1ClosedLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvQDrop1ClosedOn",
+  "aCOs": [
+   "ItmCdvQDrop1ClosedOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvQDrop1ClosedOnLocked",
+  "aCOs": [
+   "ItmCdvQDrop1ClosedOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvQDrop1Open",
+  "aCOs": [
+   "ItmCdvQDrop1Open=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvQDrop1OpenLocked",
+  "aCOs": [
+   "ItmCdvQDrop1OpenLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvQDrop1OpenOn",
+  "aCOs": [
+   "ItmCdvQDrop1OpenOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvQDrop1OpenOnLocked",
+  "aCOs": [
+   "ItmCdvQDrop1OpenOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ACTCdvQDrop2ClosedDamage",
+  "aCOs": [
+   "MSCdvQDrop2ClosedDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvQDrop2ClosedDestroy",
+  "aCOs": [
+   "MSCdvQDrop2ClosedDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvQDrop2ClosedLooseDamage",
+  "aCOs": [
+   "MSCdvQDrop2ClosedLooseDamage=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ACTCdvQDrop2ClosedLooseDestroy",
+  "aCOs": [
+   "MSCdvQDrop2ClosedLooseDestroy=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ItmCdvQDrop2ClosedDamage",
+  "aCOs": [
+   "ItmCdvQDrop2ClosedDmg=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvQDrop2ClosedLooseDamage",
+  "aCOs": [
+   "ItmCdvQDrop2ClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [
+   "ItmDoorComponents=1.0x1"
+  ],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvQDrop2Closed",
+  "aCOs": [
+   "ItmCdvQDrop2Closed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvQDrop2ClosedLoose",
+  "aCOs": [
+   "ItmCdvQDrop2ClosedLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvQDrop2ClosedDmg",
+  "aCOs": [
+   "ItmCdvQDrop2ClosedDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvQDrop2ClosedDmgLoose",
+  "aCOs": [
+   "ItmCdvQDrop2ClosedDmgLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvQDrop2ClosedLocked",
+  "aCOs": [
+   "ItmCdvQDrop2ClosedLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvQDrop2ClosedOn",
+  "aCOs": [
+   "ItmCdvQDrop2ClosedOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvQDrop2ClosedOnLocked",
+  "aCOs": [
+   "ItmCdvQDrop2ClosedOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvQDrop2Open",
+  "aCOs": [
+   "ItmCdvQDrop2Open=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvQDrop2OpenLocked",
+  "aCOs": [
+   "ItmCdvQDrop2OpenLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvQDrop2OpenOn",
+  "aCOs": [
+   "ItmCdvQDrop2OpenOn=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmDoorIntCdvQDrop2OpenOnLocked",
+  "aCOs": [
+   "ItmCdvQDrop2OpenOnLocked=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ACTCdvQuartersDmg",
+  "aCOs": [
+   "MSCdvQuartersDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ItmCdvQuartersDismantle",
+  "aCOs": [
+   "ItmPartsMechSmall01=1.0x3",
+   "ItmScrapSteel=1.0x2",
+   "ItmScrapTrash=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvQuartersClosed",
+  "aCOs": [
+   "ItmCdvQuartersClosed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvQuartersLoose",
+  "aCOs": [
+   "ItmCdvQuartersLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvQuartersOpen",
+  "aCOs": [
+   "ItmCdvQuartersOpen=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ACTCdvQPocketDmg",
+  "aCOs": [
+   "MSCdvQPocketDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ItmCdvQPocketDismantle",
+  "aCOs": [
+   "ItmPartsMechSmall01=1.0x3",
+   "ItmScrapSteel=1.0x2",
+   "ItmScrapTrash=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvQPocketClosed",
+  "aCOs": [
+   "ItmCdvQPocketClosed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvQPocketLoose",
+  "aCOs": [
+   "ItmCdvQPocketLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvQPocketOpen",
+  "aCOs": [
+   "ItmCdvQPocketOpen=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ACTCdvQDoubleDmg",
+  "aCOs": [
+   "MSCdvQDoubleDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ItmCdvQDoubleDismantle",
+  "aCOs": [
+   "ItmPartsMechSmall01=1.0x3",
+   "ItmScrapSteel=1.0x2",
+   "ItmScrapTrash=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvQDoubleClosed",
+  "aCOs": [
+   "ItmCdvQDoubleClosed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvQDoubleLoose",
+  "aCOs": [
+   "ItmCdvQDoubleLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvQDoubleOpen",
+  "aCOs": [
+   "ItmCdvQDoubleOpen=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ACTCdvInteriorDmg",
+  "aCOs": [
+   "MSCdvInteriorDmg=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "interaction"
+ },
+ {
+  "strName": "ItmCdvInteriorDismantle",
+  "aCOs": [
+   "ItmPartsMechSmall01=1.0x3",
+   "ItmScrapSteel=1.0x2",
+   "ItmScrapTrash=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvInteriorClosed",
+  "aCOs": [
+   "ItmCdvInteriorClosed=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvInteriorLoose",
+  "aCOs": [
+   "ItmCdvInteriorLoose=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ },
+ {
+  "strName": "ItmCdvInteriorOpen",
+  "aCOs": [
+   "ItmCdvInteriorOpen=1.0x1"
+  ],
+  "aLoots": [],
+  "strType": "item"
+ }
+]

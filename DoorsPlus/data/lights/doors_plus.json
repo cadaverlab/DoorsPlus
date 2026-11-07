@@ -1,0 +1,470 @@
+[
+ {
+  "strName": "CdvDoor3ClosedOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 8,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvDoor3ClosedOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 8,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvDoor3OpenOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 8,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvDoor3OpenOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 8,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvDoor6ClosedOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 32,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvDoor6ClosedOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 32,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvDoor6OpenOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 32,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvDoor6OpenOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 32,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvDoor7ClosedOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 40,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvDoor7ClosedOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 40,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvDoor7OpenOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 40,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvDoor7OpenOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 40,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvSlide3ClosedOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 8,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvSlide3ClosedOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 8,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvSlide3OpenOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 8,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvSlide3OpenOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 8,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvSlide4ClosedOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 16,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvSlide4ClosedOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 16,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvSlide4OpenOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 16,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvSlide4OpenOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 16,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvSlide6ClosedOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 32,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvSlide6ClosedOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 32,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvSlide6OpenOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 32,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvSlide6OpenOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 32,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvCrewClosedOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 24,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvCrewClosedOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 24,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvCrewOpenOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 24,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvCrewOpenOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 24,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvPressureClosedOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 24,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvPressureClosedOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 24,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvPressureOpenOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 24,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvPressureOpenOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 24,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvSecurityClosedOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 24,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvSecurityClosedOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 24,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvSecurityOpenOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 24,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvSecurityOpenOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 24,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvFoldingClosedOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 24,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvFoldingClosedOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 24,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvFoldingOpenOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 24,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvFoldingOpenOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 24,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvDropClosedOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 24,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvDropClosedOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 24,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvDropOpenOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 24,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvDropOpenOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 24,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvQDrop1ClosedOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 0,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvQDrop1ClosedOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 0,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvQDrop1OpenOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 0,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvQDrop1OpenOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 0,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvQDrop2ClosedOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 0,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvQDrop2ClosedOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 0,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvQDrop2OpenOn",
+  "strColor": "AlarmGreen",
+  "strImg": "ItmLitGreenCircle",
+  "ptPos": {
+   "x": 0,
+   "y": 0
+  }
+ },
+ {
+  "strName": "CdvQDrop2OpenOnLocked",
+  "strColor": "AlarmRed",
+  "strImg": "ItmLitRedSlash",
+  "ptPos": {
+   "x": 0,
+   "y": 0
+  }
+ }
+]

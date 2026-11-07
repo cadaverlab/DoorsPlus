@@ -1,0 +1,9 @@
+[
+  {
+    "strName": "Doors+",
+    "strAuthor": "Cadaver",
+    "strGameVersion": "1.0.1.5",
+    "strModVersion": "0.1.0",
+    "strNotes": "More doors, from Cadaver Laboratories. For the closet you wanted, the cargo bay, the latrine, and the room nobody goes into anymore: the standard door in smaller and larger sizes, slide doors, crew, pressure, security and folding doors, quarters doors, and drop doors that sink into the deck. A drop door is the floor where it stands; uninstall it and the floor goes with it. They open, close, lock, take power and signals, and your crew walks through them without being asked. Standard, red and blast looks. No plugin. Try: spawn ItmCdvDoor6ClosedLoose"
+  }
+]

@@ -1,0 +1,298 @@
+[
+ {
+  "strName": "IsCdvDoor3",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a compact door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvDoor3Red",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a compact door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvDoor3Blast",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a compact door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvDoor6",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a wide door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvDoor6Red",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a wide door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvDoor6Blast",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a wide door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvDoor7",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a cargo door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvDoor7Red",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a cargo door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvDoor7Blast",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a cargo door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvSlide3",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a compact slide door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvSlide3Red",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a compact slide door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvSlide3Blast",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a compact slide door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvSlide4",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a slide door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvSlide4Red",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a slide door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvSlide4Blast",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a slide door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvSlide6",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a wide slide door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvSlide6Red",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a wide slide door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvSlide6Blast",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a wide slide door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvCrew",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a crew door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvCrewRed",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a crew door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvCrewBlast",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a crew door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvPressure",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a pressure door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvPressureRed",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a pressure door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvPressureBlast",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a pressure door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvSecurity",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a security door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvSecurityRed",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a security door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvSecurityBlast",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a security door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvFolding",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a folding door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvFoldingRed",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a folding door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvFoldingBlast",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a folding door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvDrop",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a drop door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvQDrop1",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a quarters drop door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvQDrop2",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a quarters drop door, double.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvQuarters",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a quarters door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvQPocket",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a quarters pocket door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvQDouble",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a quarters double door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ },
+ {
+  "strName": "IsCdvInterior",
+  "strNameFriendly": "",
+  "strColor": "Neutral",
+  "strDesc": "[us] [is] a interior door.",
+  "nDisplaySelf": 0,
+  "nDisplayOther": 0
+ }
+]

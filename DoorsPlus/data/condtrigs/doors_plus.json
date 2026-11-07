@@ -1,0 +1,10040 @@
+[
+ {
+  "strName": "TIsCdvDoor3Installed",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3InstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3Uninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3UninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3AutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvDoor3OpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3ClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3ClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3ClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3ClosedOffTutorial",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsOff",
+   "TutorialPowerVizTarget"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3ClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3ClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3ClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3OpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3OpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3OpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3OpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3OpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3OpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3ValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3RedInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsRed",
+   "IsCdvDoor3Red",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3RedInstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsRed",
+   "IsCdvDoor3Red",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3RedUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsRed",
+   "IsCdvDoor3Red"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3RedUninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsRed",
+   "IsCdvDoor3Red",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3RedAutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvDoor3RedOpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3RedClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsRed",
+   "IsCdvDoor3Red",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3RedClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsRed",
+   "IsCdvDoor3Red",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3RedClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsRed",
+   "IsCdvDoor3Red",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3RedClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsRed",
+   "IsCdvDoor3Red",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3RedClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsRed",
+   "IsCdvDoor3Red",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3RedClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsRed",
+   "IsCdvDoor3Red"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3RedOpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsRed",
+   "IsCdvDoor3Red",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3RedOpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsRed",
+   "IsCdvDoor3Red",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3RedOpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsRed",
+   "IsCdvDoor3Red",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3RedOpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsRed",
+   "IsCdvDoor3Red",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3RedOpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsRed",
+   "IsCdvDoor3",
+   "IsRed",
+   "IsCdvDoor3Red",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3RedOpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsRed",
+   "IsCdvDoor3Red",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3RedValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsRed",
+   "IsCdvDoor3Red",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3BlastInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsGreen",
+   "IsCdvDoor3Blast",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3BlastInstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsGreen",
+   "IsCdvDoor3Blast",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3BlastUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsGreen",
+   "IsCdvDoor3Blast"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3BlastUninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsGreen",
+   "IsCdvDoor3Blast",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3BlastAutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvDoor3BlastOpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3BlastClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsGreen",
+   "IsCdvDoor3Blast",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3BlastClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsGreen",
+   "IsCdvDoor3Blast",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3BlastClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsGreen",
+   "IsCdvDoor3Blast",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3BlastClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsGreen",
+   "IsCdvDoor3Blast",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3BlastClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsGreen",
+   "IsCdvDoor3Blast",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3BlastClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsGreen",
+   "IsCdvDoor3Blast"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3BlastOpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsGreen",
+   "IsCdvDoor3Blast",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3BlastOpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsGreen",
+   "IsCdvDoor3Blast",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3BlastOpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsGreen",
+   "IsCdvDoor3Blast",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3BlastOpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsGreen",
+   "IsCdvDoor3Blast",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3BlastOpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsGreen",
+   "IsCdvDoor3",
+   "IsGreen",
+   "IsCdvDoor3Blast",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3BlastOpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsGreen",
+   "IsCdvDoor3Blast",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor3BlastValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor3",
+   "IsGreen",
+   "IsCdvDoor3Blast",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6Installed",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6InstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6Uninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6UninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6AutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvDoor6OpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6ClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6ClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6ClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6ClosedOffTutorial",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsOff",
+   "TutorialPowerVizTarget"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6ClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6ClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6ClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6OpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6OpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6OpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6OpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6OpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6OpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6ValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6RedInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsRed",
+   "IsCdvDoor6Red",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6RedInstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsRed",
+   "IsCdvDoor6Red",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6RedUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsRed",
+   "IsCdvDoor6Red"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6RedUninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsRed",
+   "IsCdvDoor6Red",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6RedAutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvDoor6RedOpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6RedClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsRed",
+   "IsCdvDoor6Red",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6RedClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsRed",
+   "IsCdvDoor6Red",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6RedClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsRed",
+   "IsCdvDoor6Red",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6RedClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsRed",
+   "IsCdvDoor6Red",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6RedClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsRed",
+   "IsCdvDoor6Red",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6RedClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsRed",
+   "IsCdvDoor6Red"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6RedOpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsRed",
+   "IsCdvDoor6Red",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6RedOpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsRed",
+   "IsCdvDoor6Red",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6RedOpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsRed",
+   "IsCdvDoor6Red",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6RedOpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsRed",
+   "IsCdvDoor6Red",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6RedOpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsRed",
+   "IsCdvDoor6",
+   "IsRed",
+   "IsCdvDoor6Red",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6RedOpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsRed",
+   "IsCdvDoor6Red",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6RedValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsRed",
+   "IsCdvDoor6Red",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6BlastInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsGreen",
+   "IsCdvDoor6Blast",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6BlastInstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsGreen",
+   "IsCdvDoor6Blast",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6BlastUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsGreen",
+   "IsCdvDoor6Blast"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6BlastUninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsGreen",
+   "IsCdvDoor6Blast",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6BlastAutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvDoor6BlastOpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6BlastClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsGreen",
+   "IsCdvDoor6Blast",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6BlastClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsGreen",
+   "IsCdvDoor6Blast",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6BlastClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsGreen",
+   "IsCdvDoor6Blast",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6BlastClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsGreen",
+   "IsCdvDoor6Blast",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6BlastClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsGreen",
+   "IsCdvDoor6Blast",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6BlastClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsGreen",
+   "IsCdvDoor6Blast"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6BlastOpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsGreen",
+   "IsCdvDoor6Blast",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6BlastOpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsGreen",
+   "IsCdvDoor6Blast",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6BlastOpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsGreen",
+   "IsCdvDoor6Blast",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6BlastOpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsGreen",
+   "IsCdvDoor6Blast",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6BlastOpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsGreen",
+   "IsCdvDoor6",
+   "IsGreen",
+   "IsCdvDoor6Blast",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6BlastOpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsGreen",
+   "IsCdvDoor6Blast",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor6BlastValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor6",
+   "IsGreen",
+   "IsCdvDoor6Blast",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7Installed",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7InstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7Uninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7UninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7AutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvDoor7OpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7ClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7ClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7ClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7ClosedOffTutorial",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsOff",
+   "TutorialPowerVizTarget"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7ClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7ClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7ClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7OpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7OpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7OpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7OpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7OpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7OpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7ValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7RedInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsRed",
+   "IsCdvDoor7Red",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7RedInstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsRed",
+   "IsCdvDoor7Red",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7RedUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsRed",
+   "IsCdvDoor7Red"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7RedUninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsRed",
+   "IsCdvDoor7Red",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7RedAutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvDoor7RedOpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7RedClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsRed",
+   "IsCdvDoor7Red",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7RedClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsRed",
+   "IsCdvDoor7Red",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7RedClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsRed",
+   "IsCdvDoor7Red",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7RedClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsRed",
+   "IsCdvDoor7Red",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7RedClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsRed",
+   "IsCdvDoor7Red",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7RedClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsRed",
+   "IsCdvDoor7Red"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7RedOpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsRed",
+   "IsCdvDoor7Red",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7RedOpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsRed",
+   "IsCdvDoor7Red",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7RedOpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsRed",
+   "IsCdvDoor7Red",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7RedOpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsRed",
+   "IsCdvDoor7Red",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7RedOpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsRed",
+   "IsCdvDoor7",
+   "IsRed",
+   "IsCdvDoor7Red",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7RedOpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsRed",
+   "IsCdvDoor7Red",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7RedValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsRed",
+   "IsCdvDoor7Red",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7BlastInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsGreen",
+   "IsCdvDoor7Blast",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7BlastInstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsGreen",
+   "IsCdvDoor7Blast",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7BlastUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsGreen",
+   "IsCdvDoor7Blast"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7BlastUninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsGreen",
+   "IsCdvDoor7Blast",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7BlastAutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvDoor7BlastOpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7BlastClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsGreen",
+   "IsCdvDoor7Blast",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7BlastClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsGreen",
+   "IsCdvDoor7Blast",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7BlastClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsGreen",
+   "IsCdvDoor7Blast",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7BlastClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsGreen",
+   "IsCdvDoor7Blast",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7BlastClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsGreen",
+   "IsCdvDoor7Blast",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7BlastClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsGreen",
+   "IsCdvDoor7Blast"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7BlastOpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsGreen",
+   "IsCdvDoor7Blast",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7BlastOpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsGreen",
+   "IsCdvDoor7Blast",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7BlastOpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsGreen",
+   "IsCdvDoor7Blast",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7BlastOpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsGreen",
+   "IsCdvDoor7Blast",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7BlastOpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsGreen",
+   "IsCdvDoor7",
+   "IsGreen",
+   "IsCdvDoor7Blast",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7BlastOpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsGreen",
+   "IsCdvDoor7Blast",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDoor7BlastValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDoor7",
+   "IsGreen",
+   "IsCdvDoor7Blast",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3Installed",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3InstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3Uninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3UninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3AutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvSlide3OpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3ClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3ClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3ClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3ClosedOffTutorial",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsOff",
+   "TutorialPowerVizTarget"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3ClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3ClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3ClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3OpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3OpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3OpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3OpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3OpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3OpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3ValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3RedInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsRed",
+   "IsCdvSlide3Red",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3RedInstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsRed",
+   "IsCdvSlide3Red",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3RedUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsRed",
+   "IsCdvSlide3Red"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3RedUninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsRed",
+   "IsCdvSlide3Red",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3RedAutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvSlide3RedOpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3RedClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsRed",
+   "IsCdvSlide3Red",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3RedClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsRed",
+   "IsCdvSlide3Red",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3RedClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsRed",
+   "IsCdvSlide3Red",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3RedClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsRed",
+   "IsCdvSlide3Red",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3RedClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsRed",
+   "IsCdvSlide3Red",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3RedClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsRed",
+   "IsCdvSlide3Red"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3RedOpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsRed",
+   "IsCdvSlide3Red",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3RedOpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsRed",
+   "IsCdvSlide3Red",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3RedOpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsRed",
+   "IsCdvSlide3Red",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3RedOpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsRed",
+   "IsCdvSlide3Red",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3RedOpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsRed",
+   "IsCdvSlide3",
+   "IsRed",
+   "IsCdvSlide3Red",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3RedOpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsRed",
+   "IsCdvSlide3Red",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3RedValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsRed",
+   "IsCdvSlide3Red",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3BlastInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsGreen",
+   "IsCdvSlide3Blast",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3BlastInstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsGreen",
+   "IsCdvSlide3Blast",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3BlastUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsGreen",
+   "IsCdvSlide3Blast"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3BlastUninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsGreen",
+   "IsCdvSlide3Blast",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3BlastAutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvSlide3BlastOpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3BlastClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsGreen",
+   "IsCdvSlide3Blast",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3BlastClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsGreen",
+   "IsCdvSlide3Blast",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3BlastClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsGreen",
+   "IsCdvSlide3Blast",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3BlastClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsGreen",
+   "IsCdvSlide3Blast",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3BlastClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsGreen",
+   "IsCdvSlide3Blast",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3BlastClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsGreen",
+   "IsCdvSlide3Blast"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3BlastOpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsGreen",
+   "IsCdvSlide3Blast",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3BlastOpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsGreen",
+   "IsCdvSlide3Blast",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3BlastOpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsGreen",
+   "IsCdvSlide3Blast",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3BlastOpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsGreen",
+   "IsCdvSlide3Blast",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3BlastOpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsGreen",
+   "IsCdvSlide3",
+   "IsGreen",
+   "IsCdvSlide3Blast",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3BlastOpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsGreen",
+   "IsCdvSlide3Blast",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide3BlastValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide3",
+   "IsGreen",
+   "IsCdvSlide3Blast",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4Installed",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4InstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4Uninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4UninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4AutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvSlide4OpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4ClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4ClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4ClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4ClosedOffTutorial",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsOff",
+   "TutorialPowerVizTarget"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4ClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4ClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4ClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4OpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4OpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4OpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4OpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4OpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4OpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4ValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4RedInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsRed",
+   "IsCdvSlide4Red",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4RedInstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsRed",
+   "IsCdvSlide4Red",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4RedUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsRed",
+   "IsCdvSlide4Red"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4RedUninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsRed",
+   "IsCdvSlide4Red",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4RedAutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvSlide4RedOpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4RedClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsRed",
+   "IsCdvSlide4Red",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4RedClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsRed",
+   "IsCdvSlide4Red",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4RedClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsRed",
+   "IsCdvSlide4Red",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4RedClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsRed",
+   "IsCdvSlide4Red",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4RedClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsRed",
+   "IsCdvSlide4Red",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4RedClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsRed",
+   "IsCdvSlide4Red"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4RedOpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsRed",
+   "IsCdvSlide4Red",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4RedOpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsRed",
+   "IsCdvSlide4Red",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4RedOpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsRed",
+   "IsCdvSlide4Red",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4RedOpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsRed",
+   "IsCdvSlide4Red",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4RedOpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsRed",
+   "IsCdvSlide4",
+   "IsRed",
+   "IsCdvSlide4Red",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4RedOpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsRed",
+   "IsCdvSlide4Red",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4RedValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsRed",
+   "IsCdvSlide4Red",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4BlastInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsGreen",
+   "IsCdvSlide4Blast",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4BlastInstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsGreen",
+   "IsCdvSlide4Blast",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4BlastUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsGreen",
+   "IsCdvSlide4Blast"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4BlastUninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsGreen",
+   "IsCdvSlide4Blast",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4BlastAutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvSlide4BlastOpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4BlastClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsGreen",
+   "IsCdvSlide4Blast",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4BlastClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsGreen",
+   "IsCdvSlide4Blast",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4BlastClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsGreen",
+   "IsCdvSlide4Blast",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4BlastClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsGreen",
+   "IsCdvSlide4Blast",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4BlastClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsGreen",
+   "IsCdvSlide4Blast",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4BlastClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsGreen",
+   "IsCdvSlide4Blast"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4BlastOpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsGreen",
+   "IsCdvSlide4Blast",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4BlastOpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsGreen",
+   "IsCdvSlide4Blast",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4BlastOpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsGreen",
+   "IsCdvSlide4Blast",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4BlastOpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsGreen",
+   "IsCdvSlide4Blast",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4BlastOpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsGreen",
+   "IsCdvSlide4",
+   "IsGreen",
+   "IsCdvSlide4Blast",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4BlastOpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsGreen",
+   "IsCdvSlide4Blast",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide4BlastValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide4",
+   "IsGreen",
+   "IsCdvSlide4Blast",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6Installed",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6InstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6Uninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6UninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6AutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvSlide6OpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6ClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6ClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6ClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6ClosedOffTutorial",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsOff",
+   "TutorialPowerVizTarget"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6ClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6ClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6ClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6OpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6OpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6OpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6OpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6OpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6OpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6ValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6RedInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsRed",
+   "IsCdvSlide6Red",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6RedInstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsRed",
+   "IsCdvSlide6Red",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6RedUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsRed",
+   "IsCdvSlide6Red"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6RedUninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsRed",
+   "IsCdvSlide6Red",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6RedAutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvSlide6RedOpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6RedClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsRed",
+   "IsCdvSlide6Red",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6RedClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsRed",
+   "IsCdvSlide6Red",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6RedClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsRed",
+   "IsCdvSlide6Red",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6RedClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsRed",
+   "IsCdvSlide6Red",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6RedClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsRed",
+   "IsCdvSlide6Red",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6RedClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsRed",
+   "IsCdvSlide6Red"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6RedOpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsRed",
+   "IsCdvSlide6Red",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6RedOpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsRed",
+   "IsCdvSlide6Red",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6RedOpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsRed",
+   "IsCdvSlide6Red",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6RedOpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsRed",
+   "IsCdvSlide6Red",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6RedOpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsRed",
+   "IsCdvSlide6",
+   "IsRed",
+   "IsCdvSlide6Red",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6RedOpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsRed",
+   "IsCdvSlide6Red",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6RedValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsRed",
+   "IsCdvSlide6Red",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6BlastInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsGreen",
+   "IsCdvSlide6Blast",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6BlastInstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsGreen",
+   "IsCdvSlide6Blast",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6BlastUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsGreen",
+   "IsCdvSlide6Blast"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6BlastUninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsGreen",
+   "IsCdvSlide6Blast",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6BlastAutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvSlide6BlastOpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6BlastClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsGreen",
+   "IsCdvSlide6Blast",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6BlastClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsGreen",
+   "IsCdvSlide6Blast",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6BlastClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsGreen",
+   "IsCdvSlide6Blast",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6BlastClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsGreen",
+   "IsCdvSlide6Blast",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6BlastClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsGreen",
+   "IsCdvSlide6Blast",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6BlastClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsGreen",
+   "IsCdvSlide6Blast"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6BlastOpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsGreen",
+   "IsCdvSlide6Blast",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6BlastOpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsGreen",
+   "IsCdvSlide6Blast",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6BlastOpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsGreen",
+   "IsCdvSlide6Blast",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6BlastOpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsGreen",
+   "IsCdvSlide6Blast",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6BlastOpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsGreen",
+   "IsCdvSlide6",
+   "IsGreen",
+   "IsCdvSlide6Blast",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6BlastOpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsGreen",
+   "IsCdvSlide6Blast",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSlide6BlastValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSlide6",
+   "IsGreen",
+   "IsCdvSlide6Blast",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewInstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewUninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewAutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvCrewOpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewClosedOffTutorial",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsOff",
+   "TutorialPowerVizTarget"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewOpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewOpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewOpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewOpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewOpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewOpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewRedInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsRed",
+   "IsCdvCrewRed",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewRedInstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsRed",
+   "IsCdvCrewRed",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewRedUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsRed",
+   "IsCdvCrewRed"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewRedUninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsRed",
+   "IsCdvCrewRed",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewRedAutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvCrewRedOpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewRedClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsRed",
+   "IsCdvCrewRed",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewRedClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsRed",
+   "IsCdvCrewRed",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewRedClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsRed",
+   "IsCdvCrewRed",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewRedClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsRed",
+   "IsCdvCrewRed",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewRedClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsRed",
+   "IsCdvCrewRed",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewRedClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsRed",
+   "IsCdvCrewRed"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewRedOpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsRed",
+   "IsCdvCrewRed",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewRedOpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsRed",
+   "IsCdvCrewRed",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewRedOpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsRed",
+   "IsCdvCrewRed",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewRedOpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsRed",
+   "IsCdvCrewRed",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewRedOpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsRed",
+   "IsCdvCrew",
+   "IsRed",
+   "IsCdvCrewRed",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewRedOpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsRed",
+   "IsCdvCrewRed",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewRedValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsRed",
+   "IsCdvCrewRed",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewBlastInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsGreen",
+   "IsCdvCrewBlast",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewBlastInstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsGreen",
+   "IsCdvCrewBlast",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewBlastUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsGreen",
+   "IsCdvCrewBlast"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewBlastUninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsGreen",
+   "IsCdvCrewBlast",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewBlastAutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvCrewBlastOpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewBlastClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsGreen",
+   "IsCdvCrewBlast",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewBlastClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsGreen",
+   "IsCdvCrewBlast",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewBlastClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsGreen",
+   "IsCdvCrewBlast",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewBlastClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsGreen",
+   "IsCdvCrewBlast",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewBlastClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsGreen",
+   "IsCdvCrewBlast",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewBlastClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsGreen",
+   "IsCdvCrewBlast"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewBlastOpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsGreen",
+   "IsCdvCrewBlast",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewBlastOpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsGreen",
+   "IsCdvCrewBlast",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewBlastOpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsGreen",
+   "IsCdvCrewBlast",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewBlastOpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsGreen",
+   "IsCdvCrewBlast",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewBlastOpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsGreen",
+   "IsCdvCrew",
+   "IsGreen",
+   "IsCdvCrewBlast",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewBlastOpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsGreen",
+   "IsCdvCrewBlast",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvCrewBlastValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvCrew",
+   "IsGreen",
+   "IsCdvCrewBlast",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureInstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureUninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureAutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvPressureOpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureClosedOffTutorial",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsOff",
+   "TutorialPowerVizTarget"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureOpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureOpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureOpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureOpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureOpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureOpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureRedInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsRed",
+   "IsCdvPressureRed",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureRedInstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsRed",
+   "IsCdvPressureRed",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureRedUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsRed",
+   "IsCdvPressureRed"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureRedUninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsRed",
+   "IsCdvPressureRed",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureRedAutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvPressureRedOpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureRedClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsRed",
+   "IsCdvPressureRed",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureRedClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsRed",
+   "IsCdvPressureRed",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureRedClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsRed",
+   "IsCdvPressureRed",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureRedClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsRed",
+   "IsCdvPressureRed",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureRedClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsRed",
+   "IsCdvPressureRed",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureRedClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsRed",
+   "IsCdvPressureRed"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureRedOpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsRed",
+   "IsCdvPressureRed",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureRedOpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsRed",
+   "IsCdvPressureRed",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureRedOpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsRed",
+   "IsCdvPressureRed",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureRedOpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsRed",
+   "IsCdvPressureRed",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureRedOpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsRed",
+   "IsCdvPressure",
+   "IsRed",
+   "IsCdvPressureRed",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureRedOpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsRed",
+   "IsCdvPressureRed",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureRedValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsRed",
+   "IsCdvPressureRed",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureBlastInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsGreen",
+   "IsCdvPressureBlast",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureBlastInstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsGreen",
+   "IsCdvPressureBlast",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureBlastUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsGreen",
+   "IsCdvPressureBlast"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureBlastUninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsGreen",
+   "IsCdvPressureBlast",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureBlastAutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvPressureBlastOpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureBlastClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsGreen",
+   "IsCdvPressureBlast",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureBlastClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsGreen",
+   "IsCdvPressureBlast",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureBlastClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsGreen",
+   "IsCdvPressureBlast",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureBlastClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsGreen",
+   "IsCdvPressureBlast",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureBlastClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsGreen",
+   "IsCdvPressureBlast",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureBlastClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsGreen",
+   "IsCdvPressureBlast"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureBlastOpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsGreen",
+   "IsCdvPressureBlast",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureBlastOpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsGreen",
+   "IsCdvPressureBlast",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureBlastOpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsGreen",
+   "IsCdvPressureBlast",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureBlastOpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsGreen",
+   "IsCdvPressureBlast",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureBlastOpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsGreen",
+   "IsCdvPressure",
+   "IsGreen",
+   "IsCdvPressureBlast",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureBlastOpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsGreen",
+   "IsCdvPressureBlast",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvPressureBlastValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvPressure",
+   "IsGreen",
+   "IsCdvPressureBlast",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityInstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityUninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityAutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvSecurityOpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityClosedOffTutorial",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsOff",
+   "TutorialPowerVizTarget"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityOpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityOpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityOpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityOpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityOpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityOpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityRedInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsRed",
+   "IsCdvSecurityRed",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityRedInstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsRed",
+   "IsCdvSecurityRed",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityRedUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsRed",
+   "IsCdvSecurityRed"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityRedUninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsRed",
+   "IsCdvSecurityRed",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityRedAutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvSecurityRedOpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityRedClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsRed",
+   "IsCdvSecurityRed",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityRedClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsRed",
+   "IsCdvSecurityRed",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityRedClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsRed",
+   "IsCdvSecurityRed",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityRedClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsRed",
+   "IsCdvSecurityRed",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityRedClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsRed",
+   "IsCdvSecurityRed",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityRedClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsRed",
+   "IsCdvSecurityRed"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityRedOpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsRed",
+   "IsCdvSecurityRed",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityRedOpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsRed",
+   "IsCdvSecurityRed",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityRedOpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsRed",
+   "IsCdvSecurityRed",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityRedOpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsRed",
+   "IsCdvSecurityRed",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityRedOpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsRed",
+   "IsCdvSecurity",
+   "IsRed",
+   "IsCdvSecurityRed",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityRedOpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsRed",
+   "IsCdvSecurityRed",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityRedValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsRed",
+   "IsCdvSecurityRed",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityBlastInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsGreen",
+   "IsCdvSecurityBlast",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityBlastInstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsGreen",
+   "IsCdvSecurityBlast",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityBlastUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsGreen",
+   "IsCdvSecurityBlast"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityBlastUninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsGreen",
+   "IsCdvSecurityBlast",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityBlastAutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvSecurityBlastOpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityBlastClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsGreen",
+   "IsCdvSecurityBlast",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityBlastClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsGreen",
+   "IsCdvSecurityBlast",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityBlastClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsGreen",
+   "IsCdvSecurityBlast",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityBlastClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsGreen",
+   "IsCdvSecurityBlast",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityBlastClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsGreen",
+   "IsCdvSecurityBlast",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityBlastClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsGreen",
+   "IsCdvSecurityBlast"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityBlastOpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsGreen",
+   "IsCdvSecurityBlast",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityBlastOpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsGreen",
+   "IsCdvSecurityBlast",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityBlastOpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsGreen",
+   "IsCdvSecurityBlast",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityBlastOpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsGreen",
+   "IsCdvSecurityBlast",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityBlastOpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsGreen",
+   "IsCdvSecurity",
+   "IsGreen",
+   "IsCdvSecurityBlast",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityBlastOpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsGreen",
+   "IsCdvSecurityBlast",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvSecurityBlastValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvSecurity",
+   "IsGreen",
+   "IsCdvSecurityBlast",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingInstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingUninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingAutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvFoldingOpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingClosedOffTutorial",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsOff",
+   "TutorialPowerVizTarget"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingOpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingOpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingOpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingOpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingOpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingOpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingRedInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsRed",
+   "IsCdvFoldingRed",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingRedInstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsRed",
+   "IsCdvFoldingRed",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingRedUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsRed",
+   "IsCdvFoldingRed"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingRedUninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsRed",
+   "IsCdvFoldingRed",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingRedAutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvFoldingRedOpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingRedClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsRed",
+   "IsCdvFoldingRed",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingRedClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsRed",
+   "IsCdvFoldingRed",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingRedClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsRed",
+   "IsCdvFoldingRed",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingRedClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsRed",
+   "IsCdvFoldingRed",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingRedClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsRed",
+   "IsCdvFoldingRed",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingRedClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsRed",
+   "IsCdvFoldingRed"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingRedOpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsRed",
+   "IsCdvFoldingRed",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingRedOpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsRed",
+   "IsCdvFoldingRed",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingRedOpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsRed",
+   "IsCdvFoldingRed",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingRedOpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsRed",
+   "IsCdvFoldingRed",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingRedOpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsRed",
+   "IsCdvFolding",
+   "IsRed",
+   "IsCdvFoldingRed",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingRedOpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsRed",
+   "IsCdvFoldingRed",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingRedValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsRed",
+   "IsCdvFoldingRed",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingBlastInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsGreen",
+   "IsCdvFoldingBlast",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingBlastInstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsGreen",
+   "IsCdvFoldingBlast",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingBlastUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsGreen",
+   "IsCdvFoldingBlast"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingBlastUninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsGreen",
+   "IsCdvFoldingBlast",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingBlastAutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvFoldingBlastOpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingBlastClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsGreen",
+   "IsCdvFoldingBlast",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingBlastClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsGreen",
+   "IsCdvFoldingBlast",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingBlastClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsGreen",
+   "IsCdvFoldingBlast",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingBlastClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsGreen",
+   "IsCdvFoldingBlast",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingBlastClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsGreen",
+   "IsCdvFoldingBlast",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingBlastClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsGreen",
+   "IsCdvFoldingBlast"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingBlastOpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsGreen",
+   "IsCdvFoldingBlast",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingBlastOpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsGreen",
+   "IsCdvFoldingBlast",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingBlastOpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsGreen",
+   "IsCdvFoldingBlast",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingBlastOpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsGreen",
+   "IsCdvFoldingBlast",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingBlastOpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsGreen",
+   "IsCdvFolding",
+   "IsGreen",
+   "IsCdvFoldingBlast",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingBlastOpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsGreen",
+   "IsCdvFoldingBlast",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvFoldingBlastValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvFolding",
+   "IsGreen",
+   "IsCdvFoldingBlast",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDropInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDrop",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDropInstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDrop",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDropUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDrop"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDropUninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDrop",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDropAutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvDropOpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDropClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDrop",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDropClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDrop",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDropClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDrop",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDropClosedOffTutorial",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDrop",
+   "IsOff",
+   "TutorialPowerVizTarget"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDropClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDrop",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDropClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDrop",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDropClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDrop"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDropOpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDrop",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDropOpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDrop",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDropOpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDrop",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDropOpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDrop",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDropOpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDrop",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDropOpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDrop",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvDropValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvDrop",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop1Installed",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop1",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop1InstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop1",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop1Uninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop1"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop1UninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop1",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop1AutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvQDrop1OpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop1ClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop1",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop1ClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop1",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop1ClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop1",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop1ClosedOffTutorial",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop1",
+   "IsOff",
+   "TutorialPowerVizTarget"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop1ClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop1",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop1ClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop1",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop1ClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop1"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop1OpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop1",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop1OpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop1",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop1OpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop1",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop1OpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop1",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop1OpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop1",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop1OpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop1",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop1ValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop1",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop2Installed",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop2",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop2InstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop2",
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop2Uninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop2"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop2UninstalledDmg",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop2",
+   "IsDamaged"
+  ],
+  "aForbids": [
+   "IsInstalled"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop2AutoClosing",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsAutoClose"
+  ],
+  "aForbids": [],
+  "aTriggers": [
+   "TIsCdvQDrop2OpenOnUnlocked"
+  ],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop2ClosedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop2",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop2ClosedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop2",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop2ClosedOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop2",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop2ClosedOffTutorial",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop2",
+   "IsOff",
+   "TutorialPowerVizTarget"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop2ClosedOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop2",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop2ClosedOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop2",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop2ClosedOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop2"
+  ],
+  "aForbids": [
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop2OpenedLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop2",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop2OpenedOff",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop2",
+   "IsOff"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop2OpenOffLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop2",
+   "IsOpen",
+   "IsOff",
+   "IsLocked"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop2OpenOffUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop2",
+   "IsOpen",
+   "IsOff"
+  ],
+  "aForbids": [
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop2OpenOnLocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop2",
+   "IsOpen",
+   "IsLocked"
+  ],
+  "aForbids": [
+   "IsOff"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop2OpenOnUnlocked",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop2",
+   "IsOpen"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsLocked"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDrop2ValidFactoryReset",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsCdvQDrop2",
+   "IsInstalled"
+  ],
+  "aForbids": [
+   "IsOff",
+   "IsFactoryReset"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQuartersOpen",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsHatch",
+   "IsOpen"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQuartersClosed",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsHatch"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQuartersUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsHatch"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQuartersInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsHatch",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQPocketOpen",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsHatch",
+   "IsOpen"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQPocketClosed",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsHatch"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQPocketUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsHatch"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQPocketInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsHatch",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDoubleOpen",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsHatch",
+   "IsOpen"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDoubleClosed",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsHatch"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDoubleUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsHatch"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvQDoubleInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsHatch",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvInteriorOpen",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsHatch",
+   "IsOpen"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvInteriorClosed",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsHatch"
+  ],
+  "aForbids": [
+   "IsOpen"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvInteriorUninstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsHatch"
+  ],
+  "aForbids": [
+   "IsInstalled",
+   "IsDamaged"
+  ],
+  "aTriggers": [],
+  "bAND": true
+ },
+ {
+  "strName": "TIsCdvInteriorInstalled",
+  "strCondName": "",
+  "fChance": 1.0,
+  "fCount": 1.0,
+  "aReqs": [
+   "IsHatch",
+   "IsInstalled"
+  ],
+  "aForbids": [],
+  "aTriggers": [],
+  "bAND": true
+ }
+]
